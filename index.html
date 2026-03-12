@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Amund - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="theme-toggle" class="theme-toggle">Switch to Dark Mode</button>
+
+    <main id="main-content">
+        <header>
+            <h1 id="user-name">Daniel Amund</h1>
+            <p id="user-title">Full-Stack Web Developer</p>
+        </header>
+
+        <section>
+            <h2>Skills</h2>
+            <ul id="skills-list" class="skills"></ul>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div id="projects-container"></div>
+        </section>
+
+        <section>
+            <h2>Interactive Todo API Demo</h2>
+            <div class="todo-panel">
+                <div class="todo-input">
+                    <input type="text" id="todo-input-field" placeholder="New task...">
+                    <button id="add-todo-btn">Add</button>
+                </div>
+                <ul id="todo-list" class="todo-list"></ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Email: <span id="user-email">daniel@example.com</span></p>
+            <p>GitHub: <a id="user-github" href="#" target="_blank"></a></p>
+            <p>Portfolio: <a id="user-portfolio" href="#" target="_blank"></a></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
